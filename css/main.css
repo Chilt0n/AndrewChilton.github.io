@@ -1,0 +1,320 @@
+.primary-overlay {
+  background: rgba(63, 57, 77, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/den.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  min-height: 100%;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 300px;
+}
+
+#intro1,
+#intro2 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.section-icons {
+  background: url(../img/pattern.png);
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  color: #fff;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+#button1 {
+  position: absolute;
+  bottom: 5%;
+  left: 48%;
+  opacity: 0.6;
+}
+
+.card-panel {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+.card-panel:hover {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 1);
+}
+
+.with-header:hover {
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 1);
+}
+
+.with-header {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 1);
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-contact {
+  position: relative;
+}
+
+#propic {
+  padding-top: 30px;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.section-main {
+  background: url(../img/pattern.png);
+}
+
+.section-icons {
+  padding-top: 5px;
+}
+
+.section-skilltitle {
+  background: url(../img/pattern.png);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-copy {
+  background: url(../img/pattern.png);
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-projects {
+  padding-top: 30px;
+}
+
+.section-projects2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body {
+  background: #222;
+  text-align: center;
+  font-size: 180%;
+  margin: 2em;
+  font-family: Calibri, arial, sans-serif;
+}
+
+/* Arrow Spinner */
+.to-top {
+  color: white;
+  padding-top: 1.8em;
+  display: inline-block; /* or block */
+  position: relative;
+  border-color: cyan;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+.to-top:before {
+  content: '▼';
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -0.7em;
+  border: solid 0.13em white;
+  border-radius: 10em;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.3em;
+  border-color: inherit;
+  transition: transform 0.5s ease-in;
+}
+.to-top:hover {
+  color: cyan;
+  border-color: white;
+}
+.to-top:hover:before {
+  transform: rotate(360deg);
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+}
+
+.progress-bar {
+  background: black;
+}
+
+/* #javascript-header {
+  background: url(../img/chalk.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  color: #fff;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 30px;
+} */
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+#contact {
+  padding-bottom: 500px;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#submitbtn {
+  background-color: darkcyan;
+}
+
+#submitbtn:hover {
+  background-color: white;
+  color: cyan;
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+}
+
+.image-container {
+  background-image: url('/img/bmg609.jpg'); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 300px; /* Some height */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 8vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 1px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+.section-cards {
+  padding-top: 30px;
+}
+
+.card-panel {
+  border-radius: 25px;
+}
+
+.progress {
+  width: 80%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.progress {
+  padding-top: -900px;
+}
+
+#def {
+  padding-left: 30px;
+}
+
+#projectline1,
+#projectline {
+  width: 5%;
+  color: rgb(120, 120, 120);
+}
+
+#prohead,
+#skillhead {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+  color: rgb(120, 120, 120);
+  padding-top: 80px;
+}
+
+#aboutsec,
+#footer {
+  background: url(../img/bmg609.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#card1,
+#card2,
+#card3 {
+  background: url(../img/bmg609.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
